@@ -1,0 +1,106 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BACKGROUND */
+body {
+    background: linear-gradient(135deg, #ffe0ec, #ffd1e3);
+    font-family: "Segoe UI", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+.container {
+    width: 360px;
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(255, 105, 180, 0.25);
+}
+
+/* TITLE */
+h2 {
+    text-align: center;
+    margin-bottom: 22px;
+    color: #ff4d88;
+}
+
+/* FORM */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #ff4d88;
+}
+
+input, select {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid #ffc1d6;
+    font-size: 14px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #ff4d88;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ff4d88;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #e6005c;
+}
+
+/* TEXT */
+p {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+/* LINK */
+a {
+    color: #ff4d88;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* LOGOUT BUTTON */
+.logout-btn {
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    padding: 12px;
+    background: #ff4d88;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+    background: #e6005c;
+}
